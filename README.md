@@ -1,0 +1,1 @@
+# 2024_08_08-Conversao_de_Horas-Calculadora_de_Salario-e-Condicao
