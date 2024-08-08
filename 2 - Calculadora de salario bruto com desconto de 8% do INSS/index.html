@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculadora de Salário Líquido</title>
+</head>
+<body>
+    <h1>Cálculo de Salário Líquido</h1>
+    <p>Digite o salário bruto:</p>
+    <input type="number" id="salarioBruto" step="0.01" />
+    
+    <p>Digite o valor por hora extra:</p>
+    <input type="number" id="valorHoraExtra" step="0.01" />
+
+    <p>Digite o número de horas extras:</p>
+    <input type="number" id="numeroHorasExtras" step="0.01" />
+    
+    <button onclick="calcularSalarioLiquido()">Calcular Salário Líquido</button>
+    
+    <p id="resultado"></p>
+
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
